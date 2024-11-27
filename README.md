@@ -1,4 +1,4 @@
-# Code Chat with CodeLlama & FAISS 🧠
+# CodeExp with CodeLlama & FAISS 🧠
 
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-white)](https://www.python.org/) 
 ![CodeLlama](https://img.shields.io/badge/CodeLlama-3.1-yellow?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...)  <!-- Replace with a CodeLlama logo badge if needed -->
@@ -8,7 +8,7 @@
 
 ---
 
-**Welcome** to the **Code Chat**, an advanced, state-of-the-art framework designed to analyze, explain, and optimize Python codebases. This repository leverages **CodeLlama**, **LangChain**, and **FAISS** to deliver a seamless, interactive experience for code comprehension and improvement.
+**Welcome** to the **CodeExp**, an advanced, state-of-the-art framework designed to analyze, explain, and optimize Python codebases. This repository leverages **CodeLlama**, **LangChain**, and **FAISS** to deliver a seamless, interactive experience for code comprehension and improvement.
 
 ---
 
@@ -68,7 +68,7 @@ The **Code Analysis Pipeline** provides an automated solution for:
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/MohammedNasserAhmed/code-chat.git
+git clone https://github.com/MohammedNasserAhmed/CodeExp.git
 cd code-analysis-pipeline
 ```
 
@@ -137,9 +137,9 @@ How to replace FAISS with CHORMA .
 
 
 ```
-code_chat/
+CodeExp/
 │
-├── codechat/
+├── codeexp/
 │   ├── components/
 │   │   ├── load_document.py           # Handles document loading from the codebase
 │   │   ├── split_text.py              # Splits documents into manageable chunks
@@ -171,7 +171,7 @@ To verify the functionality of the components, use `pytest`:
 
 Run all tests:
 ```bash
-pytest code_chat/tests/
+pytest CodeExp/tests/
 ```
 
 Run tests with detailed output:
@@ -181,13 +181,13 @@ pytest -v
 
 Run tests for a specific component:
 ```bash
-pytest code_chat/tests/test_<component_name>.py
+pytest CodeExp/tests/test_<component_name>.py
 ```
 
 Generate a coverage report (requires `pytest-cov`):
 ```bash
 pip install pytest-cov
-pytest --cov=code_chat/codechat
+pytest --cov=CodeExp/codechat
 ```
 
 ---
