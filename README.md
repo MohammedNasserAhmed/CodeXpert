@@ -129,6 +129,67 @@ How to replace FAISS with CHORMA .
                                    +----------------------------------+
 ```
 
+
+
+---
+
+### 📂 **Project Structure**
+
+
+```
+code_chat/
+│
+├── codechat/
+│   ├── components/
+│   │   ├── load_document.py           # Handles document loading from the codebase
+│   │   ├── split_text.py              # Splits documents into manageable chunks
+│   │   ├── get_embeddings.py          # Generates embeddings using HuggingFace models
+│   │   ├── codellama_agent.py         # Code analysis agent powered by Llama models
+│   │   ├── initialize_vector_store.py # Manages FAISS vector store initialization
+│   │   ├── llm_agent.py               # Handles LLM setup and question-answering
+│   │
+│   ├── config/
+│   │   ├── constants.py               # Contains configurations like API tokens and file paths
+│
+├── tests/                             # Contains unit tests for all components
+│   ├── test_load_document.py          # Tests for the document loader
+│   ├── test_split_text.py             # Tests for the text splitter
+│   ├── test_get_embeddings.py         # Tests for the embedding generator
+│   ├── test_codellama_agent.py        # Tests for the CodeLlama agent
+│   ├── test_initialize_vector_store.py# Tests for the FAISS vector store
+│   └── test_llm_agent.py              # Tests for the LLM setup and QA chain
+│
+├── .gitignore                         # Specifies files and folders to ignore in version control
+├── requirements.txt                   # Dependencies required for the project
+├── README.md                          # Project documentation (you are here!)
+```
+
+---
+
+### 🔍 **Run Tests**
+To verify the functionality of the components, use `pytest`:
+
+Run all tests:
+```bash
+pytest code_chat/tests/
+```
+
+Run tests with detailed output:
+```bash
+pytest -v
+```
+
+Run tests for a specific component:
+```bash
+pytest code_chat/tests/test_<component_name>.py
+```
+
+Generate a coverage report (requires `pytest-cov`):
+```bash
+pip install pytest-cov
+pytest --cov=code_chat/codechat
+```
+
 ---
 
 ## 🎓 **Use Cases**
