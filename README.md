@@ -156,7 +156,7 @@ CodeExp/
 │   ├── test_split_text.py             # Tests for the text splitter
 │   ├── test_get_embeddings.py         # Tests for the embedding generator
 │   ├── test_codellama_agent.py        # Tests for the CodeLlama agent
-│   ├── test_initialize_vector_store.py# Tests for the FAISS vector store
+│   ├── test_vector_store.py# Tests for the FAISS vector store
 │   └── test_llm_agent.py              # Tests for the LLM setup and QA chain
 │
 ├── .gitignore                         # Specifies files and folders to ignore in version control
