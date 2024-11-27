@@ -1,0 +1,11 @@
+streamlit
+openai
+langchain
+transformers
+accelerate
+sentence-transformers
+faiss-cpu
+langchainhub
+langchain-community
+chardet
+langchain_huggingface

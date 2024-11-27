@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="code_chat",
+    name="code-chat",
     version="1.0.0",
     author="M. N. Gaber",
     author_email="abunasserip@gmail.com",
@@ -12,7 +12,7 @@ setup(
     install_requires=[
         "streamlit>=1.24.0",
         "langchain>=0.0.200",
-        "qdrant-client>=1.1.1",
+        "faiss-cpu>=1.7.3",
         "huggingface-hub>=0.14.1",
         "transformers>=4.30.2",
         "python-dotenv>=1.0.0"
