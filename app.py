@@ -1,4 +1,4 @@
-from src.code_chat.pipeline.rag_pipeline import CodeAnalysisPipeline
+from codechat.pipeline.rag_pipeline import CodeAnalysisPipeline
 import logging
 
 pipeline = CodeAnalysisPipeline()
