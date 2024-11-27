@@ -141,26 +141,26 @@ CodeExp/
 │
 ├── codeexp/
 │   ├── components/
-│   │   ├── load_document.py           # Handles document loading from the codebase
-│   │   ├── split_text.py              # Splits documents into manageable chunks
-│   │   ├── get_embeddings.py          # Generates embeddings using HuggingFace models
-│   │   ├── codellama_agent.py         # Code analysis agent powered by Llama models
-│   │   ├── vector_store.py # Manages FAISS vector store initialization
+│   │   ├── load_document.py           # Handles >> document loading from the codebase
+│   │   ├── split_text.py              # Splits >> documents into manageable chunks
+│   │   ├── get_embeddings.py          # Generates >> embeddings using HuggingFace models
+│   │   ├── codellama_agent.py         # Code analysis agent >> powered by Llama models
+│   │   ├── vector_store.py            # Manages >> FAISS vector store initialization
 │   │   ├── llm_agent.py               # Handles LLM setup and question-answering
 │   │
 │   ├── config/
-│   │   ├── constants.py               # Contains configurations like API tokens and file paths
+│   │   ├── constants.py               # Contains >> configurations like API tokens and file paths
 │
-├── tests/                             # Contains unit tests for all components
-│   ├── test_load_document.py          # Tests for the document loader
-│   ├── test_split_text.py             # Tests for the text splitter
-│   ├── test_get_embeddings.py         # Tests for the embedding generator
-│   ├── test_codellama_agent.py        # Tests for the CodeLlama agent
-│   ├── test_vector_store.py# Tests for the FAISS vector store
-│   └── test_llm_agent.py              # Tests for the LLM setup and QA chain
+├── tests/                             # Contains >> unit tests for all components
+│   ├── test_load_document.py          # Tests >> for the document loader
+│   ├── test_split_text.py             # Tests >> for the text splitter
+│   ├── test_get_embeddings.py         # Tests >> for the embedding generator
+│   ├── test_codellama_agent.py        # Tests >> for the CodeLlama agent
+│   ├── test_vector_store.py           # Tests >> for the FAISS vector store
+│   └── test_llm_agent.py              # Tests >> for the LLM setup and QA chain
 │
-├── .gitignore                         # Specifies files and folders to ignore in version control
-├── requirements.txt                   # Dependencies required for the project
+├── .gitignore                         # Specifies >> files and folders to ignore in version control
+├── requirements.txt                   # Dependencies >> required for the project
 ├── README.md                          # Project documentation (you are here!)
 ```
 
