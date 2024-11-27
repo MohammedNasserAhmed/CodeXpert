@@ -145,7 +145,7 @@ code_chat/
 │   │   ├── split_text.py              # Splits documents into manageable chunks
 │   │   ├── get_embeddings.py          # Generates embeddings using HuggingFace models
 │   │   ├── codellama_agent.py         # Code analysis agent powered by Llama models
-│   │   ├── initialize_vector_store.py # Manages FAISS vector store initialization
+│   │   ├── vector_store.py # Manages FAISS vector store initialization
 │   │   ├── llm_agent.py               # Handles LLM setup and question-answering
 │   │
 │   ├── config/
