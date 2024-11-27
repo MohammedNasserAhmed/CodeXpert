@@ -1,6 +1,6 @@
 from langchain.vectorstores import FAISS
 from typing import List, Any
-from src.code_chat.config.constants import DOCS_DIR
+from codeexp.config.constants import DOCS_DIR
 
 
 class VectorStore:

@@ -1,5 +1,5 @@
 import pytest
-from codechat.components.llm_agent import QAChain
+from codeexp.components.llm_agent import QAChain
 from unittest.mock import MagicMock
 
 @pytest.fixture

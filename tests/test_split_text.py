@@ -1,5 +1,5 @@
 import pytest
-from codechat.components.split_text import TextSplitter
+from codeexp.components.split_text import TextSplitter
 
 @pytest.fixture
 def splitter():

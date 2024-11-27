@@ -1,5 +1,5 @@
 import pytest
-from codechat.components.get_embeddings import Embedding
+from codeexp.components.get_embeddings import Embedding
 from unittest.mock import patch
 
 
