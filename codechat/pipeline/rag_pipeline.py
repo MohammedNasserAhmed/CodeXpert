@@ -2,13 +2,13 @@ import os
 import logging
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-from src.code_chat.config.constants import REPO_ID, HUGGINGFACE_TOKEN, CODEBASE_DIR, EMBEDDING_MODEL, MODEL
-from src.code_chat.components.load_document import DocumentLoader, DocumentLoaderConfig
-from src.code_chat.components.split_text import TextSplitter
-from src.code_chat.components.llm_agent import QAChain
-from src.code_chat.components.get_embeddings import Embedding
-from src.code_chat.components.codellama_agent import CodeLlamaAgent
-from src.code_chat.components.intialize_vector_store import VectorStore
+from codechat.config.constants import REPO_ID, HUGGINGFACE_TOKEN, CODEBASE_DIR, EMBEDDING_MODEL, MODEL
+from codechat.components.load_document import DocumentLoader, DocumentLoaderConfig
+from codechat.components.split_text import TextSplitter
+from codechat.components.llm_agent import QAChain
+from codechat.components.get_embeddings import Embedding
+from codechat.components.codellama_agent import CodeLlamaAgent
+from codechat.components.vector_store import VectorStore
 
 # Set up environment variables and logging
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACE_TOKEN
