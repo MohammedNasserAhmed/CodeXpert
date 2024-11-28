@@ -2,9 +2,11 @@
   <img src="https://github.com/user-attachments/assets/f3be6861-27d4-469c-803b-6db1e283d011" alt="Project Logo" width="350" height="150">
 </p>
 
-<p align="center">
-  <h1>CodeExp with CodeLlama & FAISS 🧠</h1>
-</p>
+<div align="center">
+
+# CodeExp with CodeLlama & FAISS 🧠
+
+</div>
 
 <p align="center">
   <a href="https://www.python.org/">
