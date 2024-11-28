@@ -24,7 +24,7 @@
 
 ---
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/69a5f6a4-f62b-4f8e-94de-e986fea1423b" alt="Project Architecture" width="800" height="400">
+  <img src="https://github.com/user-attachments/assets/cea4b779-cf8c-4457-9214-b810840df675" alt="Project Architecture" width="800" height="400">
 </p>
 
 ---
