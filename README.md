@@ -154,9 +154,9 @@ How to replace FAISS with CHORMA .
 
 
 ```
-CodeExp/
+CodeXpert/
 │
-├── codeexp/
+├── codexpert/
 │   ├── components/
 │   │   ├── load_document.py           # Handles >> document loading from the codebase
 │   │   ├── split_text.py              # Splits >> documents into manageable chunks
