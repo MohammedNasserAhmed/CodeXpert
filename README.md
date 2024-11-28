@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/a6b95580-0ce9-4f81-a426-8c023cd55704)
+
 # CodeExp with CodeLlama & FAISS 🧠
 
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-white)](https://www.python.org/) 
@@ -11,7 +13,7 @@
 **Welcome** to the **CodeExp**, an advanced, state-of-the-art framework designed to analyze, explain, and optimize Python codebases. This repository leverages **CodeLlama**, **LangChain**, and **FAISS** to deliver a seamless, interactive experience for code comprehension and improvement.
 
 ---
-![image](https://github.com/user-attachments/assets/7b1a2811-3319-4b70-8bd1-f896e2678194)
+![image](https://github.com/user-attachments/assets/02d2e556-4c03-4154-a843-35ffe911c4bd)
 
 ---
 
