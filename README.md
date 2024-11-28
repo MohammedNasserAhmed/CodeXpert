@@ -11,7 +11,7 @@
 **Welcome** to the **CodeExp**, an advanced, state-of-the-art framework designed to analyze, explain, and optimize Python codebases. This repository leverages **CodeLlama**, **LangChain**, and **FAISS** to deliver a seamless, interactive experience for code comprehension and improvement.
 
 ---
-![image](https://github.com/user-attachments/assets/cff2689a-1c8f-472e-bec1-19514e8d4bef)
+![image](https://github.com/user-attachments/assets/2233855b-7fa4-4311-918a-6c562b834b98)
 
 ---
 
