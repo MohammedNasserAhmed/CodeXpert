@@ -1,14 +1,31 @@
-# CodeExp with CodeLlama & FAISS 🧠
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b4052bd-2b06-4456-96ea-3d5da751c493" alt="Project Logo" width="350" height="150">
+</p>
 
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-white)](https://www.python.org/) 
-![CodeLlama](https://img.shields.io/badge/CodeLlama-3.1-yellow?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...)  <!-- Replace with a CodeLlama logo badge if needed -->
-![FAISS](https://img.shields.io/badge/FAISS-1.7.3-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...) <!-- Replace with a FAISS logo badge if necessary -->
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-orange?logo=huggingface)
-![License](https://img.shields.io/badge/License-Apache-blue)
+<div align="center">
+
+# CodeXpert with CodeLlama & FAISS 🧠
+
+</div>
+
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.9%2B-white" alt="Python 3.9+">
+  </a>
+  <img src="https://img.shields.io/badge/CodeLlama-3.1-yellow?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA..." alt="CodeLlama">
+  <img src="https://img.shields.io/badge/FAISS-1.7.3-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA..." alt="FAISS">
+  <img src="https://img.shields.io/badge/HuggingFace-Transformers-orange?logo=huggingface" alt="HuggingFace">
+  <img src="https://img.shields.io/badge/License-Apache-blue" alt="License">
+</p>
 
 ---
 
-**Welcome** to the **CodeExp**, an advanced, state-of-the-art framework designed to analyze, explain, and optimize Python codebases. This repository leverages **CodeLlama**, **LangChain**, and **FAISS** to deliver a seamless, interactive experience for code comprehension and improvement.
+**Welcome** to the **CodeXpert**, an advanced, state-of-the-art framework designed to analyze, explain, and optimize Python codebases. This repository leverages **CodeLlama**, **LangChain**, and **FAISS** to deliver a seamless, interactive experience for code comprehension and improvement.
+
+---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cea4b779-cf8c-4457-9214-b810840df675" alt="Project Architecture" width="800" height="400">
+</p>
 
 ---
 
@@ -68,7 +85,7 @@ The **Code Analysis Pipeline** provides an automated solution for:
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/MohammedNasserAhmed/CodeExp.git
+git clone https://github.com/MohammedNasserAhmed/CodeXpert.git
 cd code-analysis-pipeline
 ```
 
@@ -137,30 +154,30 @@ How to replace FAISS with CHORMA .
 
 
 ```
-CodeExp/
+CodeXpert/
 │
-├── codeexp/
+├── codexpert/
 │   ├── components/
-│   │   ├── load_document.py           # Handles document loading from the codebase
-│   │   ├── split_text.py              # Splits documents into manageable chunks
-│   │   ├── get_embeddings.py          # Generates embeddings using HuggingFace models
-│   │   ├── codellama_agent.py         # Code analysis agent powered by Llama models
-│   │   ├── vector_store.py # Manages FAISS vector store initialization
+│   │   ├── load_document.py           # Handles >> document loading from the codebase
+│   │   ├── split_text.py              # Splits >> documents into manageable chunks
+│   │   ├── get_embeddings.py          # Generates >> embeddings using HuggingFace models
+│   │   ├── codellama_agent.py         # Code analysis agent >> powered by Llama models
+│   │   ├── vector_store.py            # Manages >> FAISS vector store initialization
 │   │   ├── llm_agent.py               # Handles LLM setup and question-answering
 │   │
 │   ├── config/
-│   │   ├── constants.py               # Contains configurations like API tokens and file paths
+│   │   ├── constants.py               # Contains >> configurations like API tokens and file paths
 │
-├── tests/                             # Contains unit tests for all components
-│   ├── test_load_document.py          # Tests for the document loader
-│   ├── test_split_text.py             # Tests for the text splitter
-│   ├── test_get_embeddings.py         # Tests for the embedding generator
-│   ├── test_codellama_agent.py        # Tests for the CodeLlama agent
-│   ├── test_initialize_vector_store.py# Tests for the FAISS vector store
-│   └── test_llm_agent.py              # Tests for the LLM setup and QA chain
+├── tests/                             # Contains >> unit tests for all components
+│   ├── test_load_document.py          # Tests >> for the document loader
+│   ├── test_split_text.py             # Tests >> for the text splitter
+│   ├── test_get_embeddings.py         # Tests >> for the embedding generator
+│   ├── test_codellama_agent.py        # Tests >> for the CodeLlama agent
+│   ├── test_vector_store.py           # Tests >> for the FAISS vector store
+│   └── test_llm_agent.py              # Tests >> for the LLM setup and QA chain
 │
-├── .gitignore                         # Specifies files and folders to ignore in version control
-├── requirements.txt                   # Dependencies required for the project
+├── .gitignore                         # Specifies >> files and folders to ignore in version control
+├── requirements.txt                   # Dependencies >> required for the project
 ├── README.md                          # Project documentation (you are here!)
 ```
 
@@ -171,7 +188,7 @@ To verify the functionality of the components, use `pytest`:
 
 Run all tests:
 ```bash
-pytest CodeExp/tests/
+pytest CodeXpert/tests/
 ```
 
 Run tests with detailed output:
@@ -181,13 +198,13 @@ pytest -v
 
 Run tests for a specific component:
 ```bash
-pytest CodeExp/tests/test_<component_name>.py
+pytest CodeXpert/tests/test_<component_name>.py
 ```
 
 Generate a coverage report (requires `pytest-cov`):
 ```bash
 pip install pytest-cov
-pytest --cov=CodeExp/codechat
+pytest --cov=CodeXpert/codechat
 ```
 
 ---
