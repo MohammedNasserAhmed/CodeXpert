@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a6b95580-0ce9-4f81-a426-8c023cd55704" alt="Project Logo" width="300" height="150">
+  <img src="(https://github.com/user-attachments/assets/f3be6861-27d4-469c-803b-6db1e283d011" alt="Project Logo" width="350" height="150">
 </p>
 
 # CodeExp with CodeLlama & FAISS 🧠
