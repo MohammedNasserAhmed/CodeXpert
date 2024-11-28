@@ -2,20 +2,26 @@
   <img src="https://github.com/user-attachments/assets/f3be6861-27d4-469c-803b-6db1e283d011" alt="Project Logo" width="350" height="150">
 </p>
 
-# CodeExp with CodeLlama & FAISS 🧠
+<p align="center">
+  <h1>CodeExp with CodeLlama & FAISS 🧠</h1>
+</p>
 
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-white)](https://www.python.org/) 
-![CodeLlama](https://img.shields.io/badge/CodeLlama-3.1-yellow?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...)  <!-- Replace with a CodeLlama logo badge if needed -->
-![FAISS](https://img.shields.io/badge/FAISS-1.7.3-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...) <!-- Replace with a FAISS logo badge if necessary -->
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-orange?logo=huggingface)
-![License](https://img.shields.io/badge/License-Apache-blue)
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.9%2B-white" alt="Python 3.9+">
+  </a>
+  <img src="https://img.shields.io/badge/CodeLlama-3.1-yellow?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA..." alt="CodeLlama">
+  <img src="https://img.shields.io/badge/FAISS-1.7.3-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA..." alt="FAISS">
+  <img src="https://img.shields.io/badge/HuggingFace-Transformers-orange?logo=huggingface" alt="HuggingFace">
+  <img src="https://img.shields.io/badge/License-Apache-blue" alt="License">
+</p>
 
 ---
 
 **Welcome** to the **CodeExp**, an advanced, state-of-the-art framework designed to analyze, explain, and optimize Python codebases. This repository leverages **CodeLlama**, **LangChain**, and **FAISS** to deliver a seamless, interactive experience for code comprehension and improvement.
 
 ---
-![image](https://github.com/user-attachments/assets/02d2e556-4c03-4154-a843-35ffe911c4bd)
+![image](https://github.com/user-attachments/assets/4405f3bb-af25-4d90-8448-7454967c1a96)
 
 ---
 
