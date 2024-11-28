@@ -1,6 +1,6 @@
 from langchain.vectorstores import FAISS
 from typing import List, Any
-from codeexp.config.constants import DOCS_DIR
+from codexpert.config.constants import DOCS_DIR
 
 
 class VectorStore:

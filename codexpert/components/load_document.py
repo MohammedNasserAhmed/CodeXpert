@@ -3,7 +3,7 @@ from typing import List, Optional, Union, Callable
 from pathlib import Path
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from codeexp.config.constants import DOCS_DIR
+from codexpert.config.constants import DOCS_DIR
 
 from langchain_community.document_loaders import (
     DirectoryLoader, 

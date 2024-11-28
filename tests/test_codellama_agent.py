@@ -1,5 +1,5 @@
 import pytest
-from codeexp.components.codellama_agent import CodeLlamaAgent
+from codexpert.components.codellama_agent import CodeLlamaAgent
 
 @pytest.fixture
 def agent():

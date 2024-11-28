@@ -1,5 +1,5 @@
 import pytest
-from codeexp.components.get_embeddings import Embedding
+from codexpert.components.get_embeddings import Embedding
 from unittest.mock import patch
 
 

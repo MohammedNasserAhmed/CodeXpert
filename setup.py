@@ -1,21 +1,29 @@
+import setuptools
 
-from setuptools import setup, find_packages
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
 
-setup(
-    name="code-chat",
-    version="1.0.0",
-    author="M. N. Gaber",
-    author_email="abunasserip@gmail.com",
-    description="Code RAG Chat",
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
-    install_requires=[
-        "streamlit>=1.24.0",
-        "langchain>=0.0.200",
-        "faiss-cpu>=1.7.3",
-        "huggingface-hub>=0.14.1",
-        "transformers>=4.30.2",
-        "python-dotenv>=1.0.0"
-    ],
-    python_requires=">=3.8",
+
+__version__ = "1.0.0"
+
+REPO_NAME = "CodeXpert"
+AUTHOR_USER_NAME = "MohammedNasserAhmed"
+SRC_REPO = "codexpert"
+AUTHOR_EMAIL = "abunasserip@gmail.com"
+
+
+setuptools.setup(
+    name=SRC_REPO,
+    version=__version__,
+    author=AUTHOR_USER_NAME,
+    author_email=AUTHOR_EMAIL,
+    description="CodeXpert: A cutting-edge AI-powered code analysis tool leveraging CodeLlama, FAISS, and HuggingFace for efficient code understanding, explanation, and optimization.",
+    long_description=long_description,
+    long_description_content="text/markdown",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    project_urls={
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+    },
+    package_dir={"": "codexpert"},
+    packages=setuptools.find_packages(where="codexpert")
 )

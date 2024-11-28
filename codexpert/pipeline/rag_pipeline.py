@@ -2,13 +2,13 @@ import os
 import logging
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-from codeexp.config.constants import REPO_ID, HUGGINGFACE_TOKEN, CODEBASE_DIR, EMBEDDING_MODEL, MODEL
-from codeexp.components.load_document import DocumentLoader, DocumentLoaderConfig
-from codeexp.components.split_text import TextSplitter
-from codeexp.components.llm_agent import QAChain
-from codeexp.components.get_embeddings import Embedding
-from codeexp.components.codellama_agent import CodeLlamaAgent
-from codeexp.components.vector_store import VectorStore
+from codexpert.config.constants import REPO_ID, HUGGINGFACE_TOKEN, CODEBASE_DIR, EMBEDDING_MODEL, MODEL
+from codexpert.components.load_document import DocumentLoader, DocumentLoaderConfig
+from codexpert.components.split_text import TextSplitter
+from codexpert.components.llm_agent import QAChain
+from codexpert.components.get_embeddings import Embedding
+from codexpert.components.codellama_agent import CodeLlamaAgent
+from codexpert.components.vector_store import VectorStore
 
 # Set up environment variables and logging
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACE_TOKEN
