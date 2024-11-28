@@ -24,8 +24,9 @@
 
 ---
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fc1f8bb0-0257-4b74-b5b9-b5d934e0c83a" alt="Project Logo" width="800" height="500">
+  <img src="https://github.com/user-attachments/assets/fc1f8bb0-0257-4b74-b5b9-b5d934e0c83a" alt="Project Logo" width="800" height="400">
 </p>
+
 ---
 
 ## 🚀 **Purpose**
