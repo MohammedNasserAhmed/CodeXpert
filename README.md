@@ -24,7 +24,7 @@
 
 ---
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fc1f8bb0-0257-4b74-b5b9-b5d934e0c83a" alt="Project Logo" width="800" height="400">
+  <img src="https://github.com/user-attachments/assets/57435c6a-d4d2-4b8d-8a5d-c535d2db53cb" alt="Project Logo" width="800" height="400">
 </p>
 
 ---
