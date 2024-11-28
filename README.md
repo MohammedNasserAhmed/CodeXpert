@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/a6b95580-0ce9-4f81-a426-8c023cd55704)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a6b95580-0ce9-4f81-a426-8c023cd55704" alt="Project Logo" width="200" height="200">
+</p>
 
 # CodeExp with CodeLlama & FAISS 🧠
 
