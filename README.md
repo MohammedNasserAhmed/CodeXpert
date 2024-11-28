@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# CodeExp with CodeLlama & FAISS 🧠
+# CodeXpert with CodeLlama & FAISS 🧠
 
 </div>
 
@@ -83,7 +83,7 @@ The **Code Analysis Pipeline** provides an automated solution for:
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/MohammedNasserAhmed/CodeExp.git
+git clone https://github.com/MohammedNasserAhmed/CodeXpert.git
 cd code-analysis-pipeline
 ```
 
@@ -186,7 +186,7 @@ To verify the functionality of the components, use `pytest`:
 
 Run all tests:
 ```bash
-pytest CodeExp/tests/
+pytest CodeXpert/tests/
 ```
 
 Run tests with detailed output:
@@ -196,13 +196,13 @@ pytest -v
 
 Run tests for a specific component:
 ```bash
-pytest CodeExp/tests/test_<component_name>.py
+pytest CodeXpert/tests/test_<component_name>.py
 ```
 
 Generate a coverage report (requires `pytest-cov`):
 ```bash
 pip install pytest-cov
-pytest --cov=CodeExp/codechat
+pytest --cov=CodeXpert/codechat
 ```
 
 ---
