@@ -1,5 +1,5 @@
 import os
-from typing import List, Optional, Union, Callable
+from typing import List, Optional, Callable
 from pathlib import Path
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
