@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/CodeXpert_logo.png" alt="Project Logo" width="350" height="150">
+  <img src="https://github.com/user-attachments/assets/0b4052bd-2b06-4456-96ea-3d5da751c493" alt="Project Logo" width="350" height="150">
 </p>
 
 <div align="center">
@@ -24,7 +24,7 @@
 
 ---
 <p align="center">
-  <img src="assets/CodeXpert_Arch.png" alt="Project Architecture" width="800" height="400">
+  <img src="https://github.com/user-attachments/assets/69a5f6a4-f62b-4f8e-94de-e986fea1423b" alt="Project Architecture" width="800" height="400">
 </p>
 
 ---
