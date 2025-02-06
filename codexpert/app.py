@@ -1,5 +1,5 @@
 import logging
-from codeexp.pipeline.rag_pipeline import CodeAnalysisPipeline
+from codexpert.pipeline.rag_pipeline import CodeAnalysisPipeline
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
