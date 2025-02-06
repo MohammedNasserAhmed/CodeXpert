@@ -1,5 +1,6 @@
-from langchian_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 import logging
+
 
 class Embedding:
     """
@@ -29,7 +30,9 @@ class Embedding:
         if self._embeddings is None:
             try:
                 logging.info(f"Loading embeddings for model: {self.model_name}")
-                self._embeddings = HuggingFaceEmbeddings(model_name=self.model_name, **self.kwargs)
+                self._embeddings = HuggingFaceEmbeddings(
+                    model_name=self.model_name, **self.kwargs
+                )
                 logging.info("Embeddings successfully loaded.")
             except Exception as e:
                 logging.error(f"Error initializing embeddings: {e}")

@@ -9,3 +9,4 @@ langchainhub
 langchain-community
 chardet
 langchain_huggingface
+langgraph
