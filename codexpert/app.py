@@ -4,6 +4,7 @@ from codeexp.pipeline.rag_pipeline import CodeAnalysisPipeline
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
+
 def main():
     pipeline = CodeAnalysisPipeline()
 
@@ -41,6 +42,7 @@ def main():
     except Exception as e:
         logging.error(f"Error in phase {phase_name}: {e}")
         return
+
 
 if __name__ == "__main__":
     main()
