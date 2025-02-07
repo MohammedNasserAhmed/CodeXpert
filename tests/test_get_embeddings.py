@@ -1,11 +1,12 @@
 import pytest
-from codexpert.components.get_embeddings import Embedding
+from coderag.components.get_embeddings import Embedding
 from unittest.mock import patch
 
 
 @pytest.fixture
 def embedder():
     return Embedding(model_name="dummy-model")
+
 
 def test_get_embeddings():
     # Mock the embedding response

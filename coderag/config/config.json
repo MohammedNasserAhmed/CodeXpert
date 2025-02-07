@@ -3,6 +3,6 @@
     "huggingfacehub_api_token": "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",
     "repo_id": "codellama/CodeLlama-7b-hf",
     "embedding_model":"BAAI/bge-small-en-v1.5",
-    "codebase_dir":"./codebase",
-    "docs_dir":"./codebase/outputs"
+    "codebase_dir":".data/codebase",
+    "docs_dir":".data/outputs"
 }

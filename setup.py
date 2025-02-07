@@ -3,11 +3,11 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-__version__ = "1.0"
+__version__ = "1.0.0"
 
 REPO_NAME = "CodeXpert"
 AUTHOR_USER_NAME = "MohammedNasserAhmed"
-SRC_REPO = "codexpert"
+SRC_REPO = "coderag"
 AUTHOR_EMAIL = "abunasserip@gmail.com"
 
 setuptools.setup(
@@ -22,8 +22,8 @@ setuptools.setup(
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
-    package_dir={"": "codexpert"},
-    packages=setuptools.find_packages(where="codexpert"),
+    package_dir={"": "coderag"},
+    packages=setuptools.find_packages(where="coderag"),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
@@ -41,6 +41,7 @@ setuptools.setup(
         "langchainhub",
         "langchain-community",
         "chardet",
+        "langgraph",
         "langchain_huggingface",
     ],
 )
