@@ -1,5 +1,9 @@
 import os
 import logging
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 from coderag.config.constants import HUGGINGFACE_TOKEN, CODEBASE_DIR, EMBEDDING_MODEL
 from coderag.components.load_document import DocumentLoader, DocumentLoaderConfig
 from coderag.components.split_text import TextSplitter
@@ -7,6 +11,7 @@ from coderag.components.llm_agent import QAChain
 from coderag.components.get_embeddings import Embedding
 from coderag.components.codellama_agent import CodeLlamaAgent
 from coderag.components.vector_store import VectorStore
+
 
 # Set up environment variables and logging
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACE_TOKEN
