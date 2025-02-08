@@ -1,6 +1,6 @@
 from langchain_community.vectorstores import FAISS
 from typing import List, Any
-from coderag.config.constants import DOCS_DIR
+from config.constants import DOCS_DIR
 
 
 class VectorStore:
