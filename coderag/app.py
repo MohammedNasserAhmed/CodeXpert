@@ -12,17 +12,25 @@ from components.codellama_agent import run_codellama_agent
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 import streamlit as st
+from dotenv import load_dotenv
 
 # Streamlit UI setup
 st.set_page_config(page_title="Code RAG Using CodeLlama And Qdrant", layout="wide")
 st.title("Code RAG Using CodeLlama And Qdrant")
 st.sidebar.header("Settings")
+
+load_dotenv()
+
 # Set up environment variables and logging
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACE_TOKEN
+HUGGINGFACEHUB_API_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+REPO_ID = os.getenv("REPO_ID")
+CODEBASE_DIR = os.getenv("CODEBASE_DIR")
+# Set up environment variables and logging
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACEHUB_API_TOKEN
 logging.basicConfig(level=logging.INFO)
 
 # Directory input
-root_dir = st.sidebar.text_input("Enter the root directory path:", "data/codebase")
+root_dir = st.sidebar.text_input("Enter the root directory path:", CODEBASE_DIR)
 
 if root_dir:
     documents = load_documents(root_dir)
