@@ -1,6 +1,5 @@
 import os
 import logging
-from config.constants import HUGGINGFACE_TOKEN, REPO_ID
 from components.load_document import (
     load_documents,
     split_text,
@@ -14,9 +13,10 @@ from langchain.prompts import PromptTemplate
 import streamlit as st
 from dotenv import load_dotenv
 
+
 # Streamlit UI setup
-st.set_page_config(page_title="Code RAG Using CodeLlama And Qdrant", layout="wide")
-st.title("Code RAG Using CodeLlama And Qdrant")
+st.set_page_config(page_title="Code RAG Using CodeLlama And FAISS", layout="wide")
+st.title("Code RAG Using CodeLlama And FAISS in Arabic")
 st.sidebar.header("Settings")
 
 load_dotenv()

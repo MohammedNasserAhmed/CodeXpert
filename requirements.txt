@@ -10,3 +10,5 @@ langchain-community
 chardet
 langchain_huggingface
 langgraph
+python-dotenv
+langchain-ollama
